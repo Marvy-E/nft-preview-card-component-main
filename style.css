@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    border: 2px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1.25rem;
+    padding: 1.25rem;
+}
+.container h2{
+    margin-bottom: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+
+.container h2:hover{
+    color: cyan;
+}
+
+section p {
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 1rem;
+}
+.main_img{
+    border-radius: 1.25rem;
+    max-width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container ul :first-child {
+    color: cyan;
+}
+
+.icon li img{
+    margin-right: 0.5rem;
+}
+
+.icon {
+    border-bottom: 3px solid hsl(215, 32%, 27%);
+    margin-bottom: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: hsl(215, 51%, 70%)
+}
+
+.avatar img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.avatar span {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.avatar span:hover {
+    color: cyan;
+}
+
+.attribution { 
+    font-size: 14px;
+    text-align: center;
+    margin-top: none;
+}
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 500px) {
+    .container {
+        width: 300px;
+        margin: 0 auto 1rem;
+    }
+}
